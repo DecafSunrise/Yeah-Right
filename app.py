@@ -18,7 +18,7 @@ explainer = LimeTextExplainer(class_names=["sarcastic", "not-sarcastic"])
 
 st.title('"Yeah-Right": Sarcasm Classifier')
 
-st.markdown("**_Classifiers_** are type of machine learning machine learning model that determines which bin an input should belong to: '__Hot Dog__' or '__Not Hot Dog__'.<br/><br/>"
+st.markdown("**_Classifiers_** are type of machine learning model that determines which category an input should belong to: '__Hot Dog__' or '__Not Hot Dog__'.<br/><br/>"
             "**Want to try it yourself?** Type some text below, and play with the provided models!", unsafe_allow_html=True)
 
 inst_text = st.text_input(label="What text do you want to classify?", placeholder="Your super sarcastic text here")
