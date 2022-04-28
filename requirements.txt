@@ -1,3 +1,4 @@
-joblib==1.1.0
-lime==0.2.0.1
-streamlit==1.4.0
+joblib
+lime
+streamlit
+scikit-learn
