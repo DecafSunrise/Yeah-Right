@@ -28,8 +28,8 @@ if inst_text:
 
     exp = explainer.explain_instance(inst_text, lr_pipe.predict_proba)
 
-    st.write('> LogisticRegression Probability(Sarcastic) =', round(lr_pipe.predict_proba([inst_text])[0, 1],3))
-    st.write('> RandomForest Probability(Sarcastic) =', round(lr_pipe.predict_proba([inst_text])[0, 1],3))
+    st.write(' LogisticRegression Probability(Sarcastic) =', round(lr_pipe.predict_proba([inst_text])[0, 1],3))
+    st.write(' RandomForest Probability(Sarcastic) =', round(lr_pipe.predict_proba([inst_text])[0, 1],3))
     st.write("(Prediction probability below 0.5 would mean 'Not Sarcastic')")
 
     st.header('Logistic Regression:')
