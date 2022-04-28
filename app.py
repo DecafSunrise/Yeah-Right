@@ -1,5 +1,5 @@
 import streamlit as st
-st.set_page_config(page_title="Yeah Right! | Sarcasm Classifier", page_icon="📜", layout="wide")
+st.set_page_config(page_title="Yeah Right! | Sarcasm Classifier", page_icon="📜")
 st.sidebar.image("logo.png")
 st.sidebar.info("This is a Natural Language Processing project maintained by **DecafSunrise**. Feel free to take a peek at the  [**source code**](https://github.com/DecafSunrise/Yeah-Right), or check out the rest of my [**awesome projects on GitHub**](https://github.com/DecafSunrise/)")
 
@@ -18,7 +18,7 @@ explainer = LimeTextExplainer(class_names=["sarcastic", "not-sarcastic"])
 
 st.title('"Yeah-Right": Sarcasm Classifier')
 
-st.markdown("_Classifiers_ are type of machine learning machine learning model that determines which bin an input should belong to: '__Hot Dog__' or '__Not Hot Dog__'.<br/><br/>"
+st.markdown("**_Classifiers_** are type of machine learning machine learning model that determines which bin an input should belong to: '__Hot Dog__' or '__Not Hot Dog__'.<br/><br/>"
             "**Want to try it yourself?** Type some text below, and play with the provided models!", unsafe_allow_html=True)
 
 inst_text = st.text_input(label="What text do you want to classify?", placeholder="Your super sarcastic text here")
