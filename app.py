@@ -1,5 +1,5 @@
 import streamlit as st
-
+st.set_page_config(page_title="Yeah Right! | Sarcasm Classifier", page_icon="📜", layout="wide")
 st.sidebar.image("logo.png")
 st.sidebar.info("This is a Natural Language Processing project maintained by **DecafSunrise**. Feel free to take a peek at the  [**source code**](https://github.com/DecafSunrise/Yeah-Right), or check out the rest of my [**awesome projects on GitHub**](https://github.com/DecafSunrise/)")
 
